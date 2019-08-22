@@ -1,0 +1,24 @@
+{
+  "name": "push_notification_using_mosca",
+  "version": "1.0.0",
+  "description": "push notification using mosca",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.6.9",
+    "mongoose-ssh": "^0.1.0",
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0",
+    "nodemon": "^1.19.1",
+    "JSON": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "https": "^1.0.0"
+  }
+}
